@@ -1,0 +1,81 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.calculator"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:5:5-28:19
+12        android:allowBackup="true"
+12-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\souvi\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:7:9-65
+15        android:fullBackupContent="@xml/backup_rules"
+15-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:8:9-54
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:9:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:10:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:11:9-54
+19        android:supportsRtl="true"
+19-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:12:9-35
+20        android:theme="@style/Theme.Calculator" >
+20-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:13:9-48
+21        <activity
+21-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:15:9-27:20
+22            android:name="com.example.calculator.MainActivity"
+22-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:16:13-41
+23            android:exported="true" >
+23-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:17:13-36
+24            <intent-filter>
+24-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:18:13-22:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:19:17-69
+25-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:19:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:21:17-77
+27-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:21:27-74
+28            </intent-filter>
+29
+30            <meta-data
+30-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:24:13-26:36
+31                android:name="android.app.lib_name"
+31-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:25:17-52
+32                android:value="" />
+32-->C:\Users\souvi\Desktop\Calculator\app\src\main\AndroidManifest.xml:26:17-33
+33        </activity>
+34
+35        <provider
+35-->[androidx.emoji2:emoji2:1.2.0] C:\Users\souvi\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+36            android:name="androidx.startup.InitializationProvider"
+36-->[androidx.emoji2:emoji2:1.2.0] C:\Users\souvi\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+37            android:authorities="com.example.calculator.androidx-startup"
+37-->[androidx.emoji2:emoji2:1.2.0] C:\Users\souvi\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+38            android:exported="false" >
+38-->[androidx.emoji2:emoji2:1.2.0] C:\Users\souvi\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+39            <meta-data
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\souvi\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+40                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\souvi\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+41                android:value="androidx.startup" />
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\souvi\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+42            <meta-data
+42-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\souvi\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+43                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+43-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\souvi\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+44                android:value="androidx.startup" />
+44-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\souvi\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+45        </provider>
+46    </application>
+47
+48</manifest>
